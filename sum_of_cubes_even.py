@@ -9,6 +9,6 @@ def sum_of_cubes_even(n):
             sum += i * i * i
         else:
             continue
-    return sum
+    return float(sum)
 
 print(sum_of_cubes_even(6))
